@@ -59,7 +59,10 @@ while (ulangGame) {
     }
 
     if (nyawa == 0) {
-      alert("mohon maaf, anda sudah kehabisan nyawa 😪");
+      alert(
+        "mohon maaf, anda sudah kehabisan nyawa 😪 \n angka yang dicari adalah angka " +
+          saya
+      );
     }
   }
 
