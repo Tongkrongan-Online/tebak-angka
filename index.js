@@ -1,5 +1,5 @@
 alert(
-  "selamat datang di permaiann game tebak angka yang sangat sederhana memanfaatkan prompt website \n dibuat dengan bahasa pemrograman javascript"
+  "selamat datang di permainan game tebak angka yang sangat sederhana memanfaatkan prompt website \n dibuat dengan bahasa pemrograman javascript \n dibuat oleh \n Muhammad Dava Fahreza"
 );
 
 let ulangGame = true;
