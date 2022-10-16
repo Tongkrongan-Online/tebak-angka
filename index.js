@@ -35,13 +35,22 @@ while (ulangGame) {
     kamu = parseInt(prompt("tebak angka dari 1-10"));
     if (kamu == saya) {
       alert(
-        "🎉selamat tebakan kamu benar angka yang dimaksud adalah " + kamu + "🎉"
+        "🎉selamat tebakan kamu benar" +
+          "🎉 \n" +
+          "angka yang dicari adalah " +
+          kamu
       );
     } else if (saya > kamu && !(kamu > 10)) {
-      alert("angka " + kamu + " terlalu kecil masukan angka yang lebih besar");
+      alert(
+        "angka " +
+          kamu +
+          "\n clue: terlalu kecil masukan angka yang lebih besar"
+      );
       nyawa--;
     } else if (saya < kamu && !(kamu > 10)) {
-      alert("angka " + kamu + " terlalu besar masukan angka lebih kecil");
+      alert(
+        "angka " + kamu + "\n clue: terlalu besar masukan angka lebih kecil"
+      );
       nyawa--;
     } else {
       alert(
