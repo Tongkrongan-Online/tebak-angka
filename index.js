@@ -67,6 +67,6 @@ while (ulangGame) {
   }
 
   ulangGame = confirm(
-    "apakah anda ingin bermain tebak angka lagi ? \n tekan cancel untuk berhenti \n tekan ok untuk mencoba lagi"
+    "apakah anda ingin bermain tebak angka lagi ? \n tekan ok untuk bermain lagi \n tekan batal untuk berhenti"
   );
 }
