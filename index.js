@@ -5,7 +5,7 @@ alert(
 let pilihan = "fuck";
 while (pilihan != "easy" && pilihan != "medium" && pilihan != "hard") {
   pilihan = prompt(
-    "silahkan pilih level tebak angka ketik dibawah \n easy(1-10) \n medium(1-20) \n hard(1-30) \n\n contoh ketik: hard"
+    "silahkan pilih level tebak angka ketik dibawah \n easy(1-10) \n medium(1-20) \n hard(1-30) \n\n contoh ketik: hard \n note jangan ada spasi"
   ).toLowerCase();
 }
 
