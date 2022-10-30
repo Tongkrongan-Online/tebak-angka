@@ -158,7 +158,9 @@ while (ulangGame) {
   let nyawa = 3;
   while (nyawa >= 1 && kamu != saya) {
     alert("nyawa kamu adalah " + nyawa);
-    kamu = parseInt(prompt("tebak angka dari 1-10 \n ketik dibawah ini 👇"));
+    kamu = parseInt(
+      prompt("tebak angka dari 1-" + maxAngka + "\n ketik dibawah ini 👇")
+    );
     if (kamu == saya) {
       alert(
         "🎉selamat tebakan kamu benar" +
